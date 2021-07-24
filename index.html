@@ -5,7 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+
+  <!-- Lexend Deca -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet"> 
   <title>Frontend Mentor | Stats preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,19 +25,37 @@
   </style>
 </head>
 <body>
+  <div class="mainContainer">
+    <div class="text">
+      <h1 class="mainHeading">Get <span>insights</span> that help <br>your business grow.</h1>
+      <p class="mainParagraph">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+      <div class="statsContainer">
+        <div class="companiesContainer">
+          <h2>10k+</h2>
+          <p>COMPANIES</p>
+        </div>
 
-  Get insights that help your business grow.
+        <div class="templatesContainer">
+          <h2>314</h2>
+          <p>TEMPLATES</p>
+        </div>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+        <div class="queriesContainer">
+          <h2>12M+</h2>
+          <p>QUERIES</p>
+        </div>
+      </div>
+    </div>
 
-  10k+ companies
-  314 templates
-  12m+ queries
+    <div class="imageContainer">
+      <img src="./images/image-header-desktop.jpg" alt="Photo of people smiling at work like they won the freaking lottery">
+    </div>
+    
+  </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Farhan Hasan</a>.
   </div>
 </body>
 </html>
