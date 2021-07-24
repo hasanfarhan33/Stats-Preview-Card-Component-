@@ -23,9 +23,9 @@ body {
   flex-direction: column;
   width: 55%;
   justify-content: center;
-  /* padding-left: 20%; */
+  padding-left: 5vw;
   /* background-color: red; */
-  align-items: center;
+  /* align-items: center; */
   /* padding-left: -20px; */
 }
 
@@ -40,9 +40,11 @@ body {
 
 .mainParagraph {
   color: hsla(0, 0%, 100%, 0.75);
-  max-width: 50%;
+  max-width: 70%;
   font-size: 15px;
   font-family: "Lexend Deca";
+  line-height: 25px;
+  /* background-color: red; */
 }
 
 .statsContainer {
